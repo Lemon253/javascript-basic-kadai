@@ -1,22 +1,3 @@
-/*
-//今日の日付データ取得
-const today = new Date();
-console.log(today);
-*/
-
-/*
-//指定日のデータ取得
-const specified_day = new Date(2024,10,12);
-//確認用
-console.log(specified_day);
-
-let year = specified_day.getFullYear();
-let month = specified_day.getMonth();
-let day = specified_day.getDate();
-
-//出力
-console.log(year + "年" + month + "月" + day + "日" );
-*/
 
 //関数を用いた日付データの表示
 function sampleDate(date, format){
