@@ -22,9 +22,9 @@ console.log(year + "年" + month + "月" + day + "日" );
 function sampleDate(date, format){
 
   //文字列を生年月日に置換
-  format = format.replace(/YYYY/,date.getFullYear()-1);
-  format = format.replace(/MM/,date.getMonth() +9);
-  format = format.replace(/DD/,date.getDate()-8);
+  format = format.replace(/YYYY/,date.getFullYear());
+  format = format.replace(/MM/,date.getMonth() +1);
+  format = format.replace(/DD/,date.getDate());
 
   return format;
 }
